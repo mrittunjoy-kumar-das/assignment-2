@@ -1,3 +1,323 @@
-.h{
-    background-color: brown;
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+.tag-1{
+    color: orange;
+}
+.tag-2{
+    color: skyblue;
+}
+.tag-3{
+    color: #05D4DF;
+}
+.tag-4{
+    color: #5D58EF;
+}
+.text-primary{
+    color: #FF900E;
+}
+.text-primary{
+    color: #FF900E;
+}
+    .btn-primary{
+        background-color: #FF900E;
+        color: #FFFFFF;
+        padding: 20px 25px;
+        font-size: 1.25rem;
+        font-weight: 600;
+        border-radius: 12px;
+        border: none;
+
+    }
+    .btn-primary1{
+        background-color: black;
+        color: #FFFFFF;
+        padding: 20px 25px;
+        font-size: 1.25rem;
+        font-weight: 600;
+        border-radius: 12px;
+        border: none;
+
+    }
+    .empower{
+        color: #FF900E;
+    }
+    .age{
+        color: blue;
+    }
+    .nav-link-1{
+        color: white;
+    }
+/* header styles */
+/* nabar related styles */
+.navbar{
+    justify-content: space-around;
+    text-align: center;
+}
+.images{
+    display: flex;
+    gap: 10px;
+}
+.logo{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+/* Empowering section related style */
+.Empowering{
+    align-items: center;
+ }
+ .Empower-courage{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+ }
+ #Empowering-section-title{
+    border-left: 5px solid #FF900E;
+    padding: 21px;
+
+ }
+ .hero{
+    width: 100%;
+ }
+ .img{
+    width: 100%;
+ }
+ /* Standard Curriculum style */
+ .bg{
+    background-image: url(images/bg.png);
+ }
+ .standard{
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+ }
+ .images{
+   justify-content: space-around;
+ }
+ .box{
+    padding: 20px;
+    border-radius: 18px;
+ }
+ #gradi-1{
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to top, white, #DEF5FF);
+ }
+ #gradi-2{
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to top, white, #FFF4DC);
+ }
+ #gradi-3{
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to top, white, #F2E8FF);
+ }
+ .pre-1{
+    color: #64C8FF;
+    border: 4px;
+ }
+ .pre-2{
+    color: #F0AA00;
+ }
+ .pre-3{
+    color: #8700FF;
+ }
+ .circle{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    gap: 10px;
+ }
+ .box-circle-1{
+    background-color: #FF900E;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    color: #FFFFFF;
+    
+ }
+ .box-circle-2{
+    background-color: #FF900E;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    color: #FFFFFF;
+ }
+ .story{
+    text-align: center;
+    font-size: 36px;
+    gap: 50px;
+    gap: 40px;
+ }
+ .kid{
+    justify-content: center;
+    gap: 20px;
+ }
+ .kids-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.kids-school{
+    background-color: #F2E8FF;
+    border-radius: 16px ;
+    width: 540px;
+    height: 670px;
+    
+}
+.kids-school img{
+    border-radius: 10px;
+    width: 100%;
+
+}
+/* our stories */
+.serial-22{
+    justify-content: center;
+    background-color: #F2E8FF;
+    height: 310px;
+    width: 290px;
+    border-radius: 16px;
+}
+.serial-22 img{
+    border-radius: 20px;
+    width: 290px;
+    height: 180px;
+}
+.number-1{
+    background-color: #01ACFD;
+    border-radius: 50px;
+    height: 48px;
+    width: 145px;
+}
+.number-2{
+    background-color: #95B226;
+    border-radius: 48px;
+    width: 175px;
+    min-height: 38px;
+}
+.number-3{
+    background-color: #5D58F0;
+    border-radius: 48px;
+    width: 175px;
+    min-height: 38px;
+}
+.number-4{
+    background-color: #95B226;
+    border-radius: 48px;
+    width: 180px;
+    min-height: 38px;
+    
+}
+.number-5{
+    background-color: #95B226;
+    border-radius: 48px;
+    width: 130px;
+    min-height: 38px;
+    
+}
+#serial-1{
+    padding: 5px 120px;
+    font-size: .7rem;
+    font-weight: 400;
+    color: white;
+    margin-left: 70px;
+    margin-top: -30px;
+}
+#serial-2{
+    color: white;
+    padding: 2px 2px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: -90px;
+}
+#serial-3{
+    color: white;
+    padding: 2px 2px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 52px;
+    margin-top: -90px;
+}
+#serial-4{
+    color: white;
+    padding: 2px 2px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 52px;
+    margin-top: -90px;
+}
+#serial-5{
+    color: white;
+    padding: 2px 2px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 90px;
+    margin-top: -90px;
+}
+/* banner style */
+.banner{
+    display: flex;
+    background-color: #01ACFD;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 520px;
+    margin-top: 50px;
+    padding: 30px;
+    color: white;
+    
+}
+.kids-education{
+    display: flex;
+}
+.kids-container{
+    width: 400px;
+    height: 100px;
+
+}
+.bold-option{
+    text-align: left;
+}
+/* view all button */
+.view{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    justify-content: center;
+}
+@media screen and (max-width: 576px) {
+    .hero, .kids-image-container, .navbar, .box,
+     .images, .kid, .logo, .banner, .kids-container {
+        flex-direction: column;
+    }
+    ..A{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .kid, .kids-image-container, .bold, .Empowering {
+        flex-direction: column;
+    }
+    
 }
